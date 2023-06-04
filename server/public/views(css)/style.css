@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+}
+
+.list-title {
+  text-decoration: underline;
+}
+
+.unbold {
+  font-weight: normal;
+}
+
+.flex {
+  display: flex;
+}
+
+.task-container {
+  flex: 1;
+}
+
+.simpons-container {
+  width: 100px;
+}
+
+.simpons {
+  width: 100px;
+  margin-top: 300px;
+}
+
+.king-container {
+  width: 500px;
+}
+
+.king {
+  width: 400px;
+  transform: rotateY(180deg);
+}

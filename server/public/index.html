@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="vendors(jquery-file)/jquery.js"></script>
+  <script src="scripts(client.js)/client.js"></script>
+  <link rel="stylesheet" href="./views(css)/style.css">
+  
+  <title>TO-DO LIST</title>
+</head>
+
+<body>
+
+  <header>Finish Thy Tasks Lest Ye Be Punished</header>
+  
+    <section>
+      <h2>Add Tasks Here:</h2>
+      <form>
+        <input type="text" id="task-input" placeholder="Task">
+
+        <!-- <input type="checkbox" id="completionCheckIn" name="completionCheck"> -->
+        <!-- Will Add check box when append -->
+
+        <button id="add-button">Add Task</button>
+      </form>
+    </section>
+
+    <section>
+
+         <h2>All Tasks</h2>
+          
+        <div class="flex">
+          <div class="task-container">
+            <table>
+              <thead>
+                <tr>
+                  <th class="list-title">Task</th>
+                  <th class="list-title">Completed?</th>
+                </tr>
+              </thead>
+
+              <thead id="new-tasks">
+         
+              </thead>
+
+            </table>
+          </div>
+
+          <div class="flex">
+            <div class="simpons-container">
+              <img class="simpons" src="./images/simsins.png" alt="">
+            </div>
+
+            <div class="king-container">
+              <img class="king" src="./images/king.png" alt="">
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+  
+</body>
+</html>
